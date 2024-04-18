@@ -19,8 +19,7 @@ class DioHelper {
       Map<String, dynamic>? data}) async {
     print("test");
     dio!.options.headers = {
-      "Authorization":
-          "Bearer sk-proj-CVh11r7foqxn9JT1ucTgT3BlbkFJSofwjxfquLJ4meVK4lsp",
+      "Authorization": "Bearer apikey",
       'Content-Type': 'application/json',
     };
 
